@@ -120,13 +120,15 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="2.5.0.121934" />
-  </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
-  <ItemGroup>
     <ProjectReference Include="..\Phoneword\Phoneword.csproj">
-      <Project>{D289CDD4-6E75-4623-9144-7AFA7FEFF867}</Project>
+      <Project>{18ff7b6f-dcd5-4860-97c7-71e788da13e4}</Project>
       <Name>Phoneword</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms">
+      <Version>2.5.0.121934</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

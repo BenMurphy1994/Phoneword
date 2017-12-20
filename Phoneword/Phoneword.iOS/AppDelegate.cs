@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
+using Phoneword;
 using Foundation;
 using UIKit;
+using Xamarin.Forms;
+using Xamarin;
 
 namespace Phoneword.iOS
 {
